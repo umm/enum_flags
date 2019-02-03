@@ -1,0 +1,16 @@
+{
+    "name": "umm@enum_flags-Editor",
+    "references": [
+        "umm@enum_flags"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

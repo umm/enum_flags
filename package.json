@@ -1,0 +1,30 @@
+{
+  "name": "@umm/enum_flags",
+  "version": "0.0.0",
+  "description": "Handle enum as bit flag in Inspector",
+  "homepage": "https://github.com/umm/enum_flags",
+  "bugs": {
+    "url": "https://github.com/umm/enum_flags/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/enum_flags"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}
