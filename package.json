@@ -1,6 +1,6 @@
 {
   "name": "@umm/enum_flags",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Handle enum as bit flag in Inspector",
   "homepage": "https://github.com/umm/enum_flags",
   "bugs": {
